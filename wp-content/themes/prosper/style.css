@@ -694,14 +694,14 @@ header .nav li a
   display: block;
   box-sizing: border-box;
   text-transform: uppercase;
-  padding-left: 19px;
-  padding-right: 19px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 @media (max-width: 1200px) {
   header .nav li a
   {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
     font-size: 10px;
   }
 }
@@ -709,8 +709,8 @@ header .nav li a
   header .nav li a
   {
     font-size: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 }
 header .nav li a:hover, header .nav li.current-menu-item a, .current-menu-parent a
@@ -1000,7 +1000,7 @@ footer {
       font-weight: 300; }
     .news .news__block a {
       display: block;
-      font-size: 18px;
+      font-size: 15px;
       float: right;
       color: #626262; }
       .news .news__block a:hover {
@@ -1741,4 +1741,8 @@ table.where_buy td
 .slider:hover .slider_nav
 {
   opacity: 1;
+}
+.where_buy
+{
+  margin-top: 30px;
 }
