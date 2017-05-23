@@ -20,9 +20,13 @@
                         echo '</div>';
                         echo '<div class="col-md-8">';
                           echo '<h3>';
+                          echo '<a href="';
+                          echo the_permalink();
+                          echo '">';
                           echo the_time('d.m.Y');
                           echo ' ';
                           echo the_title();
+                          echo '</a>';
                           echo '</h3>';
                           echo '<p>';
                           echo the_content();

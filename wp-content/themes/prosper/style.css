@@ -694,14 +694,14 @@ header .nav li a
   display: block;
   box-sizing: border-box;
   text-transform: uppercase;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 @media (max-width: 1200px) {
   header .nav li a
   {
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 10px;
   }
 }
@@ -709,8 +709,8 @@ header .nav li a
   header .nav li a
   {
     font-size: 8px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
 header .nav li a:hover, header .nav li.current-menu-item a, .current-menu-parent a
@@ -1126,18 +1126,18 @@ footer {
   .contact .container .contact__block {
     position: absolute;
     right: 14px;
-    top: 12px;
+    top: 11px;
     z-index: 1000; }
     .contact .container .contact__block .zvonok {
       text-align: center;
       border-radius: 10px;
       border: 1px solid #7a246c;
       display: inline-block;
-      padding: 10px;
+      padding: 7px 10px;
       text-transform: uppercase;
       color: #fff;
       width: 160px;
-      font-size: 14px;
+      font-size: 13px;
       font-family: 'Open Sans', sans-serif;
       font-weight: 600;
       background: #7a246c;
