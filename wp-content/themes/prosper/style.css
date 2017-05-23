@@ -1732,3 +1732,13 @@ table.where_buy td
     margin-top: 10px;
   }
 }
+.slider_nav
+{
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+.slider:hover .slider_nav
+{
+  opacity: 1;
+}

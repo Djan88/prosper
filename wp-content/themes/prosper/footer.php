@@ -99,11 +99,15 @@
             });
         });
         $('.slider__container').slick({
-          autoplay: true,
-          adaptiveHeight: true,
-          autoplaySpeed: 3000,
-          prevArrow: '<button type="button" class="slick-prev"><img src="<?php bloginfo('template_url'); ?>/img/left.png" alt="" /></button>',
-          nextArrow: '<button type="button" class="slick-next"><img src="<?php bloginfo('template_url'); ?>/img/right.png" alt="" /></button>'
+            autoplay: true,
+            adaptiveHeight: true,
+            <?php if (is_front_page()) { ?>
+                autoplaySpeed: 30000,
+            <?php } else { ?>
+                autoplaySpeed: 3000,
+            <?php } ?>
+            prevArrow: '<button type="button" class="slider_nav slick-prev"><img src="<?php bloginfo('template_url'); ?>/img/left.png" alt="" /></button>',
+            nextArrow: '<button type="button" class="slider_nav slick-next"><img src="<?php bloginfo('template_url'); ?>/img/right.png" alt="" /></button>'
         });
     </script>
 </body>
