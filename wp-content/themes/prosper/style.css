@@ -838,7 +838,7 @@ footer {
         left: 10px;
       }
   footer .phone {
-    background: url(img/phone-icon.png) 0 center no-repeat;
+    /*background: url(img/phone-icon.png) 0 center no-repeat;*/
     font-size: 23px;
     line-height: 50px;
     color: #fff;

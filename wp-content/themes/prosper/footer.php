@@ -33,7 +33,10 @@
 
                 </div>
                 <div class="col-md-4 footer_last_block">
-                    <div class="phone">+7 (495) <span>134 37 73</span></div>
+                    <div class="phone">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        +7 (495) <span>134 37 73</span>
+                    </div>
                     <div class="list__link">
                         <?php if (!dynamic_sidebar("third-widget-area") ) : ?><?php endif; ?>
                     </div>
