@@ -40,3 +40,4 @@
       'after_title' => '</h3>',
   ));
 ?>
+<?php require_once( dirname(__FILE__) . '/slickadmin/slickadmin.php' ); ?>

@@ -694,8 +694,8 @@ header .nav li a
   display: block;
   box-sizing: border-box;
   text-transform: uppercase;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 @media (max-width: 1200px) {
   header .nav li a
@@ -1745,4 +1745,8 @@ table.where_buy td
 .where_buy
 {
   margin-top: 30px;
+}
+.slider_nav img 
+{
+  width: 35px;
 }

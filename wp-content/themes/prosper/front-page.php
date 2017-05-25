@@ -51,56 +51,56 @@
                     <div class="col-md-3">
                         <div class="product__block">
                             <div class="product__block__header">
-                                <h3>порошок</h3>
-                                <p>Hand Wash Lemon</p>
+                                <h3><?php echo sa_option( 'heading_field_one' ); ?></h3>
+                                <p><?php echo sa_option( 'subheading_field_one' ); ?></p>
                             </div>
                             <div class="product__block__content">
-                                <img src="<?php bloginfo('template_url'); ?>/img/poroshok.png" alt="">
+                                <img src="<?php echo sa_option( 'img_field_one' ); ?>" alt="">
                             </div>
                             <div class="product__block__footer">
-                                <a href="/stiralnyj-poroshok-prosper-hand-wash-lemon/">узнать больше</a>
+                                <a href="<?php echo sa_option( 'link_field_one' ); ?>">узнать больше</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="product__block">
                             <div class="product__block__header">
-                                <h3>Гель</h3>
-                                <p>ДЛЯ СТИРКИ</p>
+                                <h3><?php echo sa_option( 'heading_field_two' ); ?></h3>
+                                <p><?php echo sa_option( 'subheading_field_two' ); ?></p>
                             </div>
                             <div class="product__block__content">
-                                <img src="<?php bloginfo('template_url'); ?>/img/gel.png" alt="">
+                                <img src="<?php echo sa_option( 'img_field_two' ); ?>" alt="">
                             </div>
                             <div class="product__block__footer">
-                                <a href="/gel-dlya-stirki-cvetnogo-belya-prosper/">узнать больше</a>
+                                <a href="<?php echo sa_option( 'link_field_two' ); ?>">узнать больше</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="product__block">
                             <div class="product__block__header">
-                                <h3>капсулы</h3>
-                                <p>для стирки</p>
+                                <h3><?php echo sa_option( 'heading_field_three' ); ?></h3>
+                                <p><?php echo sa_option( 'subheading_field_three' ); ?></p>
                             </div>
                             <div class="product__block__content">
-                                <img src="<?php bloginfo('template_url'); ?>/img/capsuly.png" alt="">
+                                <img src="<?php echo sa_option( 'img_field_three' ); ?>" alt="">
                             </div>
                             <div class="product__block__footer">
-                                <a href="/kapsuly-dlya-stirki-prosper-eco-friendly/">узнать больше</a>
+                                <a href="<?php echo sa_option( 'link_field_three' ); ?>">узнать больше</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="product__block">
                             <div class="product__block__header">
-                                <h3>кондиционер</h3>
-                                <p>для черного белья</p>
+                                <h3><?php echo sa_option( 'heading_field_four' ); ?></h3>
+                                <p><?php echo sa_option( 'subheading_field_four' ); ?></p>
                             </div>
                             <div class="product__block__content">
-                                <img src="<?php bloginfo('template_url'); ?>/img/conditioner.png" alt="">
+                                <img src="<?php echo sa_option( 'img_field_four' ); ?>" alt="">
                             </div>
                             <div class="product__block__footer">
-                                <a href="/kondicioner-dlya-chernogo-belya-prosper/">узнать больше</a>
+                                <a href="<?php echo sa_option( 'link_field_four' ); ?>">узнать больше</a>
                             </div>
                         </div>
                     </div>
