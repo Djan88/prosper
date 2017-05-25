@@ -432,7 +432,10 @@ header {
 main {
   min-height: calc(100% - 426px);
   position: relative; }
-
+p
+{
+  font-weight: 400;
+}
 /* Slider */
 .slick-slider {
   position: relative;
