@@ -924,7 +924,7 @@ footer {
     .product .product__block__content img {
       display: block;
       margin: 0 auto;
-      max-width: 100%; }
+      max-width: 200px; }
 .product .product__block__footer
 {
   padding: 10px 20px;
