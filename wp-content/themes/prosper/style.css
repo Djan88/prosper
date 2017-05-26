@@ -1744,6 +1744,17 @@ table.where_buy td
     margin-top: 10px;
   }
 }
+@media (min-width: 768px) {
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header
+  {
+    position: relative;
+  }
+  header .navbar-form
+  {
+    position: absolute;
+    right: 15px;
+  }
+}
 .slider_nav
 {
   opacity: 0;
