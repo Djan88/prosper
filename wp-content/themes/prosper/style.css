@@ -1769,7 +1769,12 @@ table.where_buy td
 {
   margin-top: 30px;
 }
+.slider_nav 
+{
+  height: 25px;
+  width: 54px;
+}
 .slider_nav img 
 {
-  width: 35px;
+  background-size: cover;
 }
