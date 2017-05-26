@@ -1773,8 +1773,11 @@ table.where_buy td
 {
   height: 25px;
   width: 54px;
+  overflow: hidden;
 }
 .slider_nav img 
 {
-  background-size: cover;
+  position: absolute;
+  left: 2px;
+  top: -11px;
 }
