@@ -1622,7 +1622,11 @@ input.wpcf7-form-control
   .product .product__block__header h3
   {
     font-weight: 600;
-    font-size: 21px;
+    font-size: 19px;
+  }
+  .product .product__block__header p 
+  {
+    font-size: 19px;
   }
   .footer_last_block
   {
@@ -1771,7 +1775,7 @@ table.where_buy td
 }
 .slider_nav 
 {
-  height: 25px;
+  height: 30px;
   width: 54px;
   overflow: hidden;
 }
