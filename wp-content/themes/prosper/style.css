@@ -933,10 +933,13 @@ footer {
       font-weight: 600; }
   .product .product__block__content {
     padding: 20px; }
-    .product .product__block__content img {
-      display: block;
-      margin: 0 auto;
-      max-width: 200px; }
+.product .product__block__content img 
+{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
+}
 .product .product__block__footer
 {
   padding: 10px 20px;
@@ -1775,13 +1778,27 @@ table.where_buy td
 }
 .slider_nav 
 {
-  height: 30px;
-  width: 54px;
+  height: 54px;
+  width: 30px;
   overflow: hidden;
 }
 .slider_nav img 
 {
   position: absolute;
-  left: 2px;
-  top: -11px;
+  left: -12px;
+  top: 2px;
+}
+@media (min-width: 1200px) {
+  .product .product__block__header h3
+  {
+    font-size: 22px;
+  }
+  .product .product__block__header p
+  {
+    font-size: 15px;
+  }
+  .product .product__block
+  {
+    height: 395px;
+  }
 }
