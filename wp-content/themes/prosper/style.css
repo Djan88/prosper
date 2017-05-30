@@ -1657,6 +1657,7 @@ table.where_buy td
     width: 145px;
     font-size: 11px;
     text-align: center;
+    margin-top: 3px;
   }
 }
 .row.loop_item
@@ -1726,7 +1727,7 @@ table.where_buy td
 .contact.contact_mobile .contact__block
 {
   left: 4px;
-  top: 2px;
+  top: 4px;
 }
 .contact.contact_mobile .social__header
 {
