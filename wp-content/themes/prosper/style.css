@@ -573,7 +573,7 @@ p
       content: "→"; }
 
 .slick-next {
-  right: 50px; }
+  right: 20px; }
   [dir="rtl"] .slick-next {
     left: -25px;
     right: auto; }
@@ -1654,7 +1654,7 @@ table.where_buy td
 @media (max-width: 991px) {
   .contact .container .contact__block .zvonok
   {
-    width: 165px;
+    width: 145px;
     font-size: 11px;
     text-align: center;
   }
@@ -1732,7 +1732,7 @@ table.where_buy td
 {
   position: absolute;
   top: 0;
-  left: 179px;
+  left: 150px;
   margin-top: 0;
   white-space: nowrap;
   width: 165px;
@@ -1750,6 +1750,14 @@ table.where_buy td
   {
     font-size: 15px;
     line-height: 15px;
+  }
+  .slider_nav img 
+  {
+    top: -9px;
+  }
+  .slider_nav 
+  {
+    height: 34px;
   }
 }
 @media (min-width: 768px) {
