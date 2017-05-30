@@ -1751,14 +1751,6 @@ table.where_buy td
     font-size: 15px;
     line-height: 15px;
   }
-  .slider_nav img 
-  {
-    top: -9px;
-  }
-  .slider_nav 
-  {
-    height: 34px;
-  }
 }
 @media (min-width: 768px) {
   .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header
@@ -1809,5 +1801,15 @@ table.where_buy td
   .product .product__block
   {
     height: 395px;
+  }
+}
+@media (max-width: 600px) {
+  .slider_nav img 
+  {
+    top: -9px;
+  }
+  .slider_nav 
+  {
+    height: 34px;
   }
 }
