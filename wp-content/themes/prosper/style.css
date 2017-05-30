@@ -664,14 +664,14 @@ header {
     background-color: #fff; }
   #menu-main-navigation
   {
-    border-left: 1px solid #3a0e33;
+    /*border-left: 1px solid #3a0e33;*/
 /*    border-right: 1px solid #3a0e33; */
   }
   header .nav li
   {
     position: relative;
    /* border-left: 1px solid #9a2687;*/
-   border-right: 1px solid #3a0e33;
+   /*border-right: 1px solid #3a0e33;*/
   }
     header .nav li:first-child::before {
       content: "";
@@ -1794,10 +1794,6 @@ table.where_buy td
   .product .product__block__header p
   {
     font-size: 15px;
-  }
-  .product .product__block
-  {
-    height: 395px;
   }
 }
 @media (max-width: 600px) {
