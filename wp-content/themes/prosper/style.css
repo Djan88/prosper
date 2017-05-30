@@ -779,7 +779,6 @@ footer {
         text-decoration: underline;
         color: #fff; }
   footer .social__footer {
-    margin-bottom: 20px;
     display: -webkit-flex;
     display: -ms-flex;
     display: -webkit-box;
@@ -863,8 +862,7 @@ footer {
   footer .list__link {
     list-style: none;
     padding: 0;
-    margin: 0;
-    margin-top: 10px; }
+    margin: 0;}
     footer .list__link li a {
       background: url(img/list-icon.png) 0 center no-repeat;
       display: block;
