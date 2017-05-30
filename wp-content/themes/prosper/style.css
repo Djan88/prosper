@@ -842,12 +842,10 @@ footer {
   footer .phone {
     /*background: url(img/phone-icon.png) 0 center no-repeat;*/
     font-size: 23px;
-    line-height: 50px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     padding-left: 60px;
-    margin-bottom: 12px; 
     position: relative;
   }
   footer .phone i 
