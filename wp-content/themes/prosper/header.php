@@ -108,6 +108,7 @@
                   echo '<source src="movie.ogg" type="video/ogg">';
                   echo 'Ваш браузер не поддержвает видео.';
                   echo '</video>';
+                  echo'<div class="video_stripe"></div>';
                   echo '</div>';
                 endif;
                 echo '<div class="content__slider">';

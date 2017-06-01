@@ -1610,8 +1610,8 @@ input.wpcf7-form-control
 }
 .video_wrap
 {
-/*  background-color: #fafafa; */
-    background: url(http://prosper-home.ru/wp-content/themes/prosper/img/slider-bg2.png) 0 0 repeat-x;
+  position: relative;  
+  background: url(http://prosper-home.ru/wp-content/themes/prosper/img/slider-bg2.png) 0 0 repeat-x;
 }
 @media (max-width: 768px) {
   .property_cell
