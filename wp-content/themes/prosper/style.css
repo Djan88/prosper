@@ -1777,13 +1777,13 @@ table.where_buy td
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
 }
-.slider_nav:hover
-{
-  opacity: 0.6;
-}
 .slider:hover .slider_nav
 {
   opacity: 1;
+}
+.slider .slider_nav:hover
+{
+  opacity: 0.6!important;
 }
 .where_buy
 {
