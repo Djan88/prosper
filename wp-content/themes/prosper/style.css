@@ -1607,11 +1607,22 @@ input.wpcf7-form-control
   width: auto;
   margin: auto;
   display: block;
+  position: relative;
+  z-index: 2;
 }
 .video_wrap
 {
   position: relative;  
   background: url(http://prosper-home.ru/wp-content/themes/prosper/img/slider-bg2.png) 0 0 repeat-x;
+}
+.video_stripe 
+{
+  position: absolute;
+  bottom: 0;
+  background: #771d67;
+  height: 25px;
+  width: 100%;
+  z-index: 1;
 }
 @media (max-width: 768px) {
   .property_cell
