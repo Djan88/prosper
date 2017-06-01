@@ -5,8 +5,10 @@ jQuery(function() {
       jQuery('.slider video').css('height', screen+'px');
       console.log(screen);
     }
-  videoResizer();
-  jQuery(window).resize(function() {
+  if ('.slider') {
     videoResizer();
+    jQuery(window).resize(function() {
+      videoResizer();
+    })
   }
 });
