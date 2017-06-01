@@ -1603,7 +1603,7 @@ input.wpcf7-form-control
 }
 .slider video
 {
-  max-height: 450px;
+  /*max-height: 450px;*/
   width: auto;
   margin: auto;
   display: block;
@@ -1809,6 +1809,6 @@ table.where_buy td
 @media (max-width: 400px) {
   .slider video 
   {
-    max-height: 165px;
+    /*max-height: 165px;*/
   }
 }
