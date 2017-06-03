@@ -1617,7 +1617,7 @@ input.wpcf7-form-control
 }
 .video_stripe 
 {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   background: #771d67;
   height: 25px;
