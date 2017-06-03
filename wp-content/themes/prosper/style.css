@@ -1609,6 +1609,7 @@ input.wpcf7-form-control
   display: block;
   position: relative;
   z-index: 2;
+  padding-bottom: 23px;
 }
 .video_wrap
 {
