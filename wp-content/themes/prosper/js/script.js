@@ -8,7 +8,7 @@ jQuery(function() {
       stripe_pb = jQuery(window).width()/52.2;
       jQuery('.slider video').css('height', screen+'px');
       jQuery('.video_stripe').css('height', stripe_w+'px');
-      jQuery('.video_stripe').css('paddingBottom', stripe_pb+'px');
+      jQuery('.video_stripe').css('padding-bottom', stripe_pb+'px');
       console.log(screen);
     }
   if ('.slider') {
