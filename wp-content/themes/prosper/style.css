@@ -840,8 +840,9 @@ footer {
       }
       footer .social__footer a:nth-child(4) span i
       {
-        top: 7px;
+        top: 8px;
         left: 10px;
+        font-size: 28px;
       }
   footer .phone {
     /*background: url(img/phone-icon.png) 0 center no-repeat;*/
@@ -1247,8 +1248,9 @@ footer {
       }
       .contact .container .social__header li:nth-child(4) a i
       {
-        top: 6px;
-        left: 8px;
+        top: 7px;
+        left: 9px;
+        font-size: 22px;
       }
 
 /*# sourceMappingURL=style.css.map */
@@ -1700,7 +1702,8 @@ table.where_buy td
 @media (max-width: 1440px) {
     .slider .slider__container .slider__item .slide__img {
         width: 100%;
-        margin: -14px auto 0;
+        /*margin: -14px auto 0;*/
+        margin: 0;
     }
 }
 .row.where_buy div
