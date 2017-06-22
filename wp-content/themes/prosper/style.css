@@ -748,7 +748,7 @@ header .navbar-form .form-control
   color: #fff;
   font-weight: 500;
 }
-input:-moz-placeholder 
+header .navbar-form .form-control:-moz-placeholder 
 {
   color: #fff;
 }
