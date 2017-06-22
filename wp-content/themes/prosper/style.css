@@ -1019,8 +1019,8 @@ footer {
 
 @media (max-width: 425px) {
   .slick-list {
-	height: 137px !important;
-	}
+    height: 137px !important;
+    }
   .slider {
     background: url(img/slide1.jpg) 0 0 no-repeat;
    background-size: contain;
@@ -1030,20 +1030,20 @@ footer {
 
 @media (max-width: 415px) {
   .slick-list {
-	height: 133px !important;
-	}
+    height: 133px !important;
+    }
 }
 
 @media (max-width: 375px) {
   .slick-list {
-	height: 120px !important;
-	}
+    height: 120px !important;
+    }
 }
 
 @media (max-width: 320px) {
   .slick-list {
-	height: 103px !important;
-	}
+    height: 103px !important;
+    }
 }
 
   @media (max-width: 600px) {
@@ -1051,16 +1051,18 @@ footer {
       /*visibility: hidden; */} }
   .slider .slider__container .slider__item {
     position: relative;
-    max-height: 470px;
+    max-height: 442px;
     width: 100%;
     position: relative; }
     .slider .slider__container .slider__item .slide__img {
       display: block;
-      margin: 0 auto; }
+      margin: 0 auto;
+       }
 @media (max-width: 600px) {
-	.slider .slider__container .slider__item .slide__img {
+    .slider .slider__container .slider__item .slide__img {
       display: block;
-      width: 100%; }
+      width: 100%; 
+      margin: 0 auto;}
 }
     .slider .slider__container .slider__item .content__slider {
       /*position: absolute;*/
@@ -1128,8 +1130,8 @@ footer {
 
 @media (min-width: 769px) {
         .slider {
-		background: url(img/slider_bg.jpg) 0 0 repeat-x;
-	}
+        background: url(img/slider_bg.jpg) 0 0 repeat-x;
+    }
 }
 
 .contact .container {
@@ -1458,7 +1460,6 @@ main.page__wrapper .product__block figure figcaption {
 }
 
 .product .view__product {
-  background-color: #f1f1f1;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 6px;
@@ -1614,7 +1615,7 @@ input.wpcf7-form-control
 .video_wrap
 {
   position: relative;  
-  background: url(http://prosper-home.ru/wp-content/themes/prosper/img/slider-bg2.png) 0 0 repeat-x;
+  background: url(http://prosper-home.ru/wp-content/themes/prosper/img/slider-bg2.png) 0 -21px repeat-x;
 }
 .video_stripe 
 {
@@ -1691,10 +1692,12 @@ table.where_buy td
 {
   display: none!important;
 }
+
 @media (max-width: 1440px) {
-	.slider .slider__container .slider__item .slide__img {
-		width: 100%
-	}
+    .slider .slider__container .slider__item .slide__img {
+        width: 100%;
+        margin: -14px auto 0;
+    }
 }
 .row.where_buy div
 {
@@ -1745,6 +1748,18 @@ table.where_buy td
   margin-top: 0;
   white-space: nowrap;
   width: 165px;
+}
+@media (max-width: 1024px) {
+  .slider .slider__container .slider__item .slide__img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+  .slider .slider__container .slider__item .slide__img {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 600px) {
   .contact.contact_mobile
@@ -1827,4 +1842,40 @@ table.where_buy td
   {
     /*max-height: 165px;*/
   }
+}@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
 }
+

@@ -104,7 +104,7 @@
         });
         $('.slider__container').slick({
             autoplay: true,
-            adaptiveHeight: true,
+            
             <?php if (is_front_page()) { ?>
                 autoplaySpeed: 30000,
             <?php } else { ?>
