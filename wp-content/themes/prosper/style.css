@@ -1775,6 +1775,11 @@ table.where_buy td
     font-size: 14px;
     line-height: 16px;
   }
+  .table-striped td
+  {
+    display: block;
+    text-align: center;
+  }
 }
 @media (min-width: 768px) {
   .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header
