@@ -1773,12 +1773,16 @@ table.where_buy td
   .news .title-bg h2
   {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
   }
   .table-striped td
   {
     display: block;
     text-align: center;
+  }
+  .news .h3 a
+  {
+    font-size: 20px;
   }
 }
 @media (min-width: 768px) {
