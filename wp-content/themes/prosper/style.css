@@ -748,6 +748,10 @@ header .navbar-form .form-control
   color: #fff;
   font-weight: 500;
 }
+input:-moz-placeholder 
+{
+  color: #fff;
+}
       header .navbar-form .form-control:focus {
         background-color: #ad2a95;
         border: 1px solid #ad2a95;
