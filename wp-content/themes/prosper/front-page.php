@@ -10,7 +10,7 @@
                 <?php
                   // The Query
                   $query = new WP_Query( 
-                    array( 'category_name' => 'novosti-i-stati', 'posts_per_page' => '2' ) 
+                    array( 'category_name' => 'news', 'posts_per_page' => '2' ) 
                   );
                   while ($query->have_posts()) : $query->the_post();
                     echo '<div class="col-md-6">';

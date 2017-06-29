@@ -835,8 +835,9 @@ footer {
       }
       footer .social__footer a:nth-child(2) span i
       {
-        top: 7px;
-        left: 5px;
+        font-size: 23px;
+        top: 10px;
+        left: 9px;
       }
       footer .social__footer a:nth-child(4) span i
       {
@@ -850,7 +851,7 @@ footer {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    padding-left: 60px;
+    padding-left: 50px;
     position: relative;
   }
   footer .phone i 
@@ -1236,9 +1237,9 @@ footer {
       }
       .contact .container .social__header li:nth-child(2) a i
       {
-        font-size: 22px;
-        top: 7px;
-        left: 6px;
+        font-size: 19px;
+        top: 8px;
+        left: 7px;
       }
       .contact .container .social__header li:nth-child(3) a i
       {
@@ -1257,6 +1258,8 @@ footer {
 .list__link ul
 {
   padding: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 .list__link li
 {
@@ -1801,6 +1804,7 @@ table.where_buy td
   {
     position: absolute;
     right: 15px;
+    margin-top: 6px;
   }
 }
 .slider_nav
@@ -1832,6 +1836,14 @@ table.where_buy td
   position: absolute;
   left: -12px;
   top: 2px;
+}
+td.property_cell 
+{
+  font-weight: 400;
+}
+.navbar-form
+{
+  margin-top: 6px;
 }
 @media (max-width: 1200px) {
   .product .product__block__header h3
