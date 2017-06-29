@@ -1023,7 +1023,8 @@ footer {
     .news .news__block span a, a.more-link
     {
       float: left!important;
-      color: #4285f4!important; 
+      color: #4285f4!important;
+      display: inline!important;
     }
       .news .news__block a:hover {
         text-decoration: none; }
