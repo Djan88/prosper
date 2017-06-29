@@ -1022,7 +1022,7 @@ footer {
       color: #626262; }
     .news .news__block span a, a.more-link
     {
-      float: left!important;
+      float: none!important;
       color: #4285f4!important;
       display: inline!important;
     }
@@ -1731,6 +1731,7 @@ table.where_buy td
   padding: 5px;
   border-radius: 5px;
   height: 100px;
+  font-size: 14px;
 }
 .hovered
 {

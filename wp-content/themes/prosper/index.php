@@ -108,9 +108,7 @@
                             <tr>
                             <?php while( have_rows('property_images') ): the_row();?>
                                 <td>
-                                  <a class="cboxElement" href="<?php the_sub_field('property_image');?>">
-                                    <img src="<?php the_sub_field('property_image');?>" alt="property">
-                                  </a>
+                                  <img src="<?php the_sub_field('property_image');?>" alt="property">
                                 </td>
                             <?php endwhile; ?>
                             </tr>
