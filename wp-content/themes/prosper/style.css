@@ -1912,5 +1912,9 @@ td.property_cell
     .collapse.in{
         display:block !important;
     }
+    .row.loop_item h3 a
+    {
+      font-size: 19px;
+    }
 }
 
