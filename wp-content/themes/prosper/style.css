@@ -1020,9 +1020,10 @@ footer {
       font-size: 15px;
       float: right;
       color: #626262; }
-    .news .news__block span a 
+    .news .news__block span a, a.more-link
     {
-      color: #4285f4; 
+      float: left!important;
+      color: #4285f4!important; 
     }
       .news .news__block a:hover {
         text-decoration: none; }
