@@ -29,7 +29,7 @@
                           echo '</a>';
                           echo '</h3>';
                           echo '<p>';
-                          echo the_content();
+                          echo the_content('(Читать дальше...)');
                           echo '</p>';
                           echo '<a href="';
                           echo the_permalink();
