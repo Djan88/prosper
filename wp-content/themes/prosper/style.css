@@ -1595,6 +1595,7 @@ input.wpcf7-form-control
   border-radius: 5px;
   border: 1px solid #751f67;
   font-size: 14px;
+  padding-top: 7px;
 }
 .wpcf7-form-control-wrap div
 {
