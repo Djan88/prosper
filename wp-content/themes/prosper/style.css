@@ -1698,7 +1698,7 @@ table.where_buy td
 }
 .where_buy img
 {
-  height: 70px;
+  max-height: 120px;
   width: auto;
 }
 .category_description
